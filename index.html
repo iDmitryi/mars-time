@@ -48,17 +48,23 @@
       </div>
     </div>
   </section>
+
   <section id="section-newsletter" class="section-newsletter">
     <div class="section-newsletter-container">
-      <h2 class="newsletter-title">Get notified when we’re launching
-      </h2>
-      <form>
+      <h2 class="newsletter-title">Get notified when we’re launching</h2>
+
+      <form onsubmit="displayEnteredData(event)">
         <label for="email-address" class="visually-hidden">Email address</label>
         <input id="email-address" class="input" name="email" type="email" autocomplete="email" required placeholder="Enter your email">
         <button type="submit" class="submit-button">Notify me</button>
       </form>
+
+      <p id="entered-data-container" class="invisible no-margin no-padding">
+        Entered email address: <code id="entered-data" class="visually-hidden"></code>
+      </p>
     </div>
   </section>
+
   <footer class="footer">
     <hr>
     <p class="">&copy; 2024 Hanganu Dumitru, Inc. All rights reserved.</p>
