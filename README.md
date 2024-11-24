@@ -5,6 +5,6 @@ main section
 
 newsletter section
 
-![image](https://github.com/user-attachments/assets/49fbe07e-10b1-4862-9fda-f0589718dbd6)
+![image](https://github.com/user-attachments/assets/d87e3424-f39c-4d8e-bde6-648a449fc116)
 
 Image generated using [Fooocus](https://github.com/lllyasviel/Fooocus)
